@@ -1,7 +1,10 @@
-let choices = ["Rock", "Paper", "Scissors"]
+let choices = ["rock", "paper", "scissors"]
 
 function getComputerChoice () {
-        return Math.floor(Math.random() * choices.length);
+        let choice = Math.floor(Math.random() * choices.length);
+        return choice;
     }
 
-console.log(getComputerChoice())
+let computerSelection = getComputerChoice();
+
+console.log(computerSelection)
