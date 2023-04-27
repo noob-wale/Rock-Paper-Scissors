@@ -11,3 +11,8 @@ If player selects scissors and computer selects paper then print scissors wins
 Else if both selects scissors then print its a draw
 If player selects paper and computer selects rock then print paper wins
 Else if both selects paper then print its a draw
+
+
+# Algorithm breakdown
+
+I wrote the function to randomly choose from and array and return a choice. ANd then getting the choice form the array as a string.
