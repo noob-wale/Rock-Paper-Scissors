@@ -1,0 +1,54 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: fuchsia;
+}
+
+.container {
+    background-color: blueviolet;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.game-score {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}
+
+.game-selections {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.selector-card {
+    width: 250px;
+    text-align: center;
+}
+
+.selector-card span {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.game-results {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
