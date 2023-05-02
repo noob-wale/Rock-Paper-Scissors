@@ -2,12 +2,11 @@ const choices = ["roCk", "paPer", "scisSors"];
 
 const getComputerChoice = () => Math.floor(Math.random() * choices.length);
 
-const computerSelection = choices[getComputerChoice()].toLowerCase();
-const playerSelection = prompt(
-  "To Play either type 'rock', 'paper', or 'scissors'..."
-).toLowerCase();
-
-function playRound(playerSelection, computerSelection) {
+function playRound() {
+  const computerSelection = choices[getComputerChoice()].toLowerCase();
+  const playerSelection = prompt(
+    "To Play either type 'rock', 'paper', or 'scissors'..."
+  ).toLowerCase();
   if (playerSelection == computerSelection) {
     return "Its A Tie";
   } else if (playerSelection == "rock" && computerSelection == "scissors") {
@@ -25,6 +24,16 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
-console.log(playerSelection);
-console.log(computerSelection);
-console.log(playRound(playerSelection, computerSelection));
+function game() {
+  let i = 0;
+  while (i < 5) {
+    console.log(playRound());
+    i++;
+  }
+}
+
+game();
+
+// console.log(playerSelection);
+// console.log(computerSelection);
+// console.log(playRound(playerSelection, computerSelection));

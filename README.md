@@ -15,4 +15,6 @@ Else if both selects paper then print its a draw
 
 # Algorithm breakdown
 
-I wrote the function to randomly choose from and array and return a choice. ANd then getting the choice form the array as a string.
+I wrote the function to randomly choose from and array and return a choice. ANd then getting the choice form the array as a string. I used the inbuilt Javascript methods to create the computer random choice.
+
+I used the If-Else method to create the function that returns win or lose against the computer. I then used the for loops to make it play 5 times,
