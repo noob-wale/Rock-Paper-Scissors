@@ -1,3 +1,7 @@
+const rock = document.querySelector('#rock');
+const paper = document.querySelector('#paper');
+const scissors = document.querySelector('#scissors');
+
 const choices = ["roCk", "paPer", "scisSors"];
 
 const getComputerChoice = () => Math.floor(Math.random() * choices.length);
@@ -32,7 +36,7 @@ function game() {
   }
 }
 
-game();
+// game();
 
 // console.log(playerSelection);
 // console.log(computerSelection);
