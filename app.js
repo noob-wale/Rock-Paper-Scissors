@@ -1,6 +1,14 @@
+const playerScore = document.querySelector('#playerScore');
+const computerScore = document.querySelector('#computerScore');
 const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
+
+rock.addEventListener('click', myFunc);
+
+function myFunc() {
+  console.log("NIaje wale");
+};
 
 const choices = ["roCk", "paPer", "scisSors"];
 
